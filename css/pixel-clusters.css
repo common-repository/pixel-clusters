@@ -1,0 +1,83 @@
+/* CSS Document */
+
+.cluster
+{
+	display: inline-block;
+	padding: 10px 0 10px 0;
+	vertical-align: top;
+	width: 100%;
+}
+
+.cluster .category
+{
+	border-bottom: 1px dashed #CCC;
+	display: inline-block;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	vertical-align: top;
+	width: 100%;
+}
+
+.cluster .category .articles
+{
+	float: left;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: normal;
+	padding: 0 0 0 1%;
+	width: 79%;
+}
+
+.cluster .category .articles .h2
+{
+	font-size: 1.2em;
+	font-weight: 700;
+	line-height: normal;
+	margin: 0 0 10px 0;
+}
+
+.cluster .category .images
+{
+	float: left;
+	padding: 0 2% 0 0;
+	width: 18%;
+}
+
+.cluster .category .images img
+{
+	height: auto;
+	max-width: 100%;
+}
+
+.cluster .column3
+{
+	display: inline-block;
+	margin-bottom: 50px;
+	padding: 0 1.5%;
+	vertical-align: top;
+	width: 30%;
+}
+
+.cluster .column3 .articles
+{
+	font-size: 0.8em;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 10px;
+}
+
+.cluster .column3 .articles .h2 a
+{
+    font-size: 1em;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.cluster .column3 .images
+{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 150px;
+	width: 100%;
+}
